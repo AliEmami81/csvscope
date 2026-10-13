@@ -1,3 +1,5 @@
+![csvscope — make sense of messy data](assets/banner.svg)
+
 # csvscope
 
 **A small C++17 tool for finding messy CSV data before it reaches your application.**
@@ -21,6 +23,8 @@ CSVSCOPE
 Excerpt from `csvscope examples/sales.csv`.
 
 ## Build and try
+
+**Windows:** download the portable x64 ZIP from [Releases](https://github.com/AliEmami81/csvscope/releases), extract it, and run `./csvscope.exe examples/sales.csv`. The Windows binary bundles its compiler runtime; no C++ toolchain is required to try it.
 
 Use a C++17 compiler:
 
